@@ -1,0 +1,42 @@
+.title {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.title h1 {
+    display: inline;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.title button {
+    display: inline;
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 0.5rem;
+    float: right;
+}
+
+.title button:hover,
+.title button:active {
+    background-color: #510674;
+    border-color: #510674;
+}
+
+.title button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.title button.alternative:hover,
+.title button.alternative:active {
+    background-color: #ddb3f8;
+}
+

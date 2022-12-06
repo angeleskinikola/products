@@ -1,0 +1,61 @@
+.add-product__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.add-product__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.add-product__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.type-switcher__control {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.type-switcher__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.type-switcher__control input {
+    font: inherit;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 70%;
+}
+
+.type-switcher__control select {
+    font: inherit;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 80%;
+}
+
+.add-product__actions {
+    text-align: right;
+}
