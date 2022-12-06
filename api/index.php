@@ -19,10 +19,7 @@ if ($parts[2] != "products") {
 }
 
 // $database = new Database("localhost", "product_db", "root", "");
-$database = new Database("localhost", 
-						"id19970019_product_db", 
-						"id19970019_root", 
-						"0jvgS[IMG2m\$Uph6");
+$database = new Database("localhost", "id19970019_product_db", "id19970019_root", "0jvgS[IMG2m\$Uph6");
 
 
 $gateway = new ProductGateway($database);
